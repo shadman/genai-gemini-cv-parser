@@ -8,7 +8,7 @@ Gemini API used to parse CV and identify candidate skills, expertise
 
 
 ## API Key
-Set Env or update API KEY on line number 9, with yours
+Set Env or update API KEY on line number 14, with yours
 > GOOGLE_API_KEY="XXccss233XXcccsszX"
 
 
