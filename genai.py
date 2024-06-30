@@ -11,7 +11,7 @@ from IPython.display import Markdown
 from google.colab import userdata
 
 # Or use `os.getenv('GOOGLE_API_KEY')` to fetch an environment variable.
-GOOGLE_API_KEY = userdata.get('GOOGLE_API_KEY')
+GOOGLE_API_KEY = "Aasdnmadadsna123123msadasd"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 dir_path = os.getcwd()
