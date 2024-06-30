@@ -13,21 +13,14 @@ Set Env or update API KEY on line number 9, with yours
 
 
 ## Run
-To get the output of our predefined input "What is the meaning of life?"
+To get the output of our predefined file name
 > python genai.py
 
 
 ## Input / Predefined Text
 Update the input parameter on line number 21, to test your required text/input value 
 
-
-# Get started
-- https://aistudio.google.com/app/apikey
-- https://colab.research.google.com/
-- https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/gemini-api/docs/get-started/python.ipynb#scrollTo=5b4Hkfj-pm3p
-
-
-# Output 
+## Output 
 
 ### Shadman Jamil - CV Analysis
 #### Main Information:
@@ -66,3 +59,10 @@ LinkedIn: https://www.linkedin.com/in/shadmanjamil
 #### Overall:
 
 Shadman Jamil presents himself as a highly skilled and experienced software architect with a strong foundation in various technologies and a demonstrated ability to lead and manage development teams. His broad range of technical skills, coupled with his experience in different industries and project types, make him a strong candidate for roles requiring a senior-level architect with a holistic understanding of system design and development.
+
+
+## Get started
+- https://aistudio.google.com/app/apikey
+- https://colab.research.google.com/
+- https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/gemini-api/docs/get-started/python.ipynb#scrollTo=5b4Hkfj-pm3p
+
