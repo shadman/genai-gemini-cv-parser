@@ -42,8 +42,9 @@ def parse_cv_with_gemini(uploaded_file):
   model = genai.GenerativeModel('gemini-1.5-flash')  
   cv_text = preprocess_cv(uploaded_file)
 
-  purpose_of_text = "Analyze the candidate by their CV in the text format, return their main information, skills, and what are the main expertise of the candidate. CV is here: " 
-  response = model.generate_content(purpose_of_text + cv_text)
+  purpose_of_text = "Analyze the candidate by their CV in the text format, return their main information, skills, and what are the main expertise of the candidate. CV is here:" 
+  # response = model.generate_content(purpose_of_text + cv_text)
+  response = model.generate_content([purpose_of_text, cv_text])
   return to_markdown(response.text)
 
 
