@@ -3,8 +3,8 @@ Gemini API used to parse CV and identify candidate skills, expertise
 
 
 ## Install dependencies
-> google.generativeai
-> pip install IPython
+- google.generativeai
+- pip install IPython
 
 
 ## API Key
